@@ -25,6 +25,9 @@
                                 </constraints>
                                 <color key="tintColor" red="0.1137254902" green="0.20392156859999999" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="save"/>
+                                <connections>
+                                    <action selector="savePerson:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nq7-Ee-X3a"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qdl-up-8Do">
                                 <rect key="frame" x="235" y="85" width="130" height="30"/>
@@ -70,6 +73,10 @@
                             <constraint firstItem="wIa-XE-IXw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zOx-ae-96O"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="firstnameTextField" destination="syF-9V-QyD" id="mFm-Sy-ebe"/>
+                        <outlet property="nameTextField" destination="Qdl-up-8Do" id="Itj-Q7-sFh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
